@@ -1,0 +1,21 @@
+{
+
+    "app": {
+        "host": "localhost",
+        "port": 8000
+    },
+
+    "database": {
+        "client": "postgres",
+        "host": "localhost",
+        "port": 5432,
+        "user": "root",
+        "password": "9853",
+        "schema": "sinteu",
+        "pool": {
+            "min": 2,
+            "max": 5
+        }
+    }
+
+}
